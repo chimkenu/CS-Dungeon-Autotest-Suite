@@ -3,8 +3,8 @@
 # Credits to Shrey's post for the general outline
 
 # Declare the file paths
-MY_FILE_PATH='./cs_sushi'
-SOLUTION_PATH='1511 cs_sushi'
+MY_FILE_PATH='./cs_dungeon'
+SOLUTION_PATH='1511 cs_dungeon'
 
 # Declare our colour codes
 red="\e[0;31m"
@@ -12,11 +12,11 @@ green="\e[0;32m"
 reset="\e[0m"
 
 # Show that command is running
-echo -e $reset"Running autotests for cs_sushi.c"
+echo -e $reset"Running autotests for cs_dungeon.c"
 
 # First compile the file
-echo 'dcc --valgrind --leak-check cs_sushi.c -o cs_sushi'
-dcc --valgrind --leak-check cs_sushi.c -o cs_sushi
+echo 'dcc --valgrind --leak-check cs_dungeon.c main.c -o cs_dungeon'
+dcc --valgrind --leak-check cs_dungeon.c main.c -o cs_dungeon
 
 # Keep track of number of tests passed and failed
 let num_passed=0
