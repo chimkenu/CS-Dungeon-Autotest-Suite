@@ -19,7 +19,7 @@ I've set it to use `dcc` to compile the program (for leak-check purposes), so it
 
 
 ## Step by step download
-In your working directory, download the files from the repo.
+In your working directory (where `cs_dungeon.c` is located), download the files from the repo.
 ```
 curl https://github.com/chimkenu/CS-Dungeon-Autotest-Suite/archive/refs/heads/master.zip -O -L -J
 ```
