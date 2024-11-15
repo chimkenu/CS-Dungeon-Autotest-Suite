@@ -32,12 +32,15 @@ for test_file in ./tests/*; do
         let num_passed++
     else
         echo -e "Test $test_file ($MY_FILE_PATH) -$red failed$reset"
+        # Show diff
+        echo "Diff:"
+        diff <(echo "$my_output") <(echo "$reference_output")
+
         # Show test input
         echo "The inputs for this test were:"
         echo -e "$red$test_file$reset"
         let num_failed++
     fi
-
 done
 
 if [ $num_failed = 0 ]; then
