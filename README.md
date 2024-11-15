@@ -32,6 +32,8 @@ If you have suggestions for more test cases, feel free to add them in a reply to
 ## Changelog
 ### 16 November 2024
 - Forked >:D
+- Replaced cs_sushi with cs_dungeon in script
+- Added a few test cases
 ### 6 August 2022
 - Repository archived.
 ### 4 August 2022
