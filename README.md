@@ -31,8 +31,12 @@ unzip CS-Dungeon-Autotest-Suite-master.zip -d ./
 
 Move the relevant files to your working directory. You can delete the unnecessary files as well.
 ```
-mv CS-Dungeon-Autotest-Suite-master/run_tests_suite.sh ./
+mv CS-Dungeon-Autotest-Suite-master/run_test_suite.sh ./
+```
+```
 mv CS-Dungeon-Autotest-Suite-master/tests ./tests/
+```
+```
 rm -r CS-Dungeon-Autotest-Suite-master CS-Dungeon-Autotest-Suite-master.zip
 ```
 
