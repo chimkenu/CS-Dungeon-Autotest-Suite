@@ -33,8 +33,9 @@ for test_file in ./tests/*; do
     else
         echo -e "Test $test_file ($MY_FILE_PATH) -$red failed$reset"
         # Show diff
-        echo "Diff:"
-        diff <(echo "$my_output") <(echo "$reference_output")
+        echo "Diff: (Left is your output, right is reference output)"
+        # diff --new-line-format='+%L' --old-line-format='-%L' --unchanged-line-format=' %L' <(echo "$my_output") <(echo "$reference_output")
+        diff -y <(echo "$my_output") <(echo "$reference_output")
 
         # Show test input
         echo "The inputs for this test were:"
