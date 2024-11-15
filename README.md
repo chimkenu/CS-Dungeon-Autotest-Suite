@@ -18,6 +18,28 @@ Please note that you should either be on the CSE servers or have the `dcc` set u
 I've set it to use `dcc` to compile the program (for leak-check purposes), so it'll crash if you attempt to run it on a machine without `dcc`.
 
 
+## Step by step download
+In your working directory, download the files from the repo.
+```
+curl https://github.com/chimkenu/CS-Dungeon-Autotest-Suite/archive/refs/heads/master.zip -O -L -J
+```
+
+Then unzip the contents of the zip file.
+```
+unzip CS-Dungeon-Autotest-Suite-master.zip -d ../ -x README.md
+```
+
+Give the script permission to be run.
+```
+chmod 775 run_test_suite.sh
+```
+
+Now you can run the test script.
+```
+./run_test_suite.sh
+```
+
+
 ## Contents of Repo
 - `run_test_suite.sh` is the bash script to execute, which will run the autotests.
 - `tests/` is a directory containing the test cases. 
