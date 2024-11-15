@@ -1,5 +1,7 @@
-# CS-Sushi-Autotest-Suite
-Autotest suite for `CS Sushi` (COMP1511 22T2 Assignment 2)
+# CS-Dungeon-Autotest-Suite
+Autotest suite for `CS Dungeon` (COMP1511 24T3 Assignment 2)
+
+This is a fork of [MysticalFire1315](https://github.com/MysticalFire1315)'s `CS-Sushi` autotest suite for COMP1511 24T3 Assignment 2's `CS Dungeon`. Just replace any `cs_sushi` you see with `cs_dungeon` when you're reading. 
 
 | :warning: WARNING: This repo is no longer maintained. |
 |:------------------------------------------------------|
@@ -28,6 +30,8 @@ I've set it to use `dcc` to compile the program (for leak-check purposes), so it
 If you have suggestions for more test cases, feel free to add them in a reply to [my Ed post](https://edstem.org/au/courses/8666/discussion/952256).
 
 ## Changelog
+### 16 November 2024
+- Forked >:D
 ### 6 August 2022
 - Repository archived.
 ### 4 August 2022
