@@ -1,0 +1,64 @@
+Faerun
+25
+Minsc
+Fighter
+a forest 1 1
+a beach 2 2
+a city 1 1
+a grove 2 2
+a village 3 3
+t 1 1 1
+t 1 2 10
+t 1 2 9
+t 1 2 8
+q
+1
+c 1
+c 2
+s
+c 2
+s
+c 1
+s
+u 2
+s
+u 2
+s
+u 1
+s
+s
+>
+b
+s
+b
+s
+b
+s
+T
+p
+T
+p
+>
+p
+<
+p
+<
+p
+T
+p
+>
+p
+>
+p
+>
+p
+T
+p
+T
+p
+T
+p
+T
+p
+b
+p
