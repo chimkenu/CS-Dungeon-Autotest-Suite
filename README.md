@@ -62,6 +62,8 @@ Now you can run the test script.
 
 If you have suggestions for more test cases, feel free to add them in a reply to [my Ed post](https://edstem.org/au/courses/8666/discussion/952256).
 
+[This is my Ed post for `cs_dungeon`!](https://edstem.org/au/courses/19028/discussion/2394202)
+
 ## Changelog
 ### 16 November 2024
 - Forked >:D
